@@ -116,8 +116,7 @@ blockquote{font:26px var(--serif);color:var(--accent);margin:50px 0 0}
 .contact h2{font-size:clamp(48px,6vw,83px)}
 .contact em{color:#153541}
 .contact>p:not(.tag){color:#405a63}
-.contact-links{display:flex;flex-wrap:wrap;gap:25px;margin-top:34px}
-.contact-links a{color:#08161b;font:12px var(--mono);text-decoration:none;border-bottom:1px solid #587883;padding-bottom:4px}
+.contact-links{display:flex;flex-wrap:wrap;gap:10px;margin-top:34px}.contact-button{display:inline-flex;align-items:center;gap:14px;padding:13px 18px;background:#b6f542;color:#050a05!important;text-decoration:none!important;border:0!important;font:700 12px var(--mono)!important;letter-spacing:.04em}.contact-button:hover{background:#d1ff75}.contact-button b{font-size:16px;line-height:1}
 footer{display:flex;justify-content:space-between;padding:20px 5vw;font:10px var(--mono);color:#66717f}
 @media(max-width:800px){header{padding:0 20px}
 nav,.header-contacts>a:not(.nav-cta){display:none}
