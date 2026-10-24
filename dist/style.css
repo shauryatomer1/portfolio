@@ -83,6 +83,7 @@ section{padding-top:118px;padding-bottom:118px}
 .role-grid>div{background:var(--bg);padding:22px}
 .role-grid h4{font-size:12px;text-transform:uppercase;letter-spacing:.06em;margin:0 0 10px}
 .role-grid p{font-size:12px;color:var(--muted);margin:0}
+.role-ai-note{margin:22px 0 0;max-width:860px;padding:15px 17px;border-left:2px solid var(--accent);background:rgba(125,211,252,.05);font-size:13px;color:var(--muted)}.role-ai-note b{color:var(--text)}
 .ai{max-width:none;background:#0f151c}
 .ai>h2,.ai>p{max-width:850px}
 .pipeline{display:flex;align-items:stretch;margin-top:50px;border:1px solid #30404d;overflow:auto}
