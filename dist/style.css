@@ -39,6 +39,7 @@ ol span{color:var(--muted)}
 .numbers span{font-size:11px;color:var(--muted)}
 section{padding-top:118px;padding-bottom:118px}
 .profile{display:grid;grid-template-columns:25% 1fr;gap:46px}
+.profile>.section-label,.section-head>.section-label{justify-self:center;text-align:center}
 .profile h2,.section-head h2,.production h2,.experience h2,.ai h2,.method h2,.beyond h2,.education h2,.contact h2{font-size:clamp(39px,5.1vw,72px);line-height:.99;letter-spacing:-.055em;margin-bottom:28px}
 .profile>div>p{color:var(--muted);max-width:650px;font-size:16px}
 .profile-cards{margin-top:51px;display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:var(--line)}
@@ -120,6 +121,7 @@ footer{display:flex;justify-content:space-between;padding:20px 5vw;font:10px var
 nav{display:none}
 .nav-cta{font-size:10px}
 .hero,section{padding-left:20px;padding-right:20px}
+.profile>.section-label,.section-head>.section-label{justify-self:start;text-align:left}
 .hero-grid,.profile,.production-grid,.experience,.method,.toolkit,.education,.section-head{grid-template-columns:1fr;gap:30px}
 .signal{border-left:0;border-top:1px solid var(--line);padding:16px 0 0}
 .numbers{grid-template-columns:1fr 1fr}
