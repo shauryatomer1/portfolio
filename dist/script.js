@@ -1,1 +1,2 @@
 document.querySelectorAll('a[href^="#"]').forEach(a=>a.addEventListener('click',e=>{const t=document.querySelector(a.getAttribute('href'));if(t){e.preventDefault();t.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'})}}));
+const roleHeading=[...document.querySelectorAll('.role h2')].find(h=>h.textContent.includes('Implementation Engineer I'));if(roleHeading)roleHeading.innerHTML='<span style="white-space:nowrap">Implementation Engineer I</span><br><em>(Software Systems)</em>';
