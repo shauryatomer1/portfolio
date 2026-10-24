@@ -47,7 +47,7 @@ section{padding-top:118px;padding-bottom:118px}
 .profile-cards h3{font-size:18px;margin:35px 0 8px}
 .profile-cards p{font-size:13px;color:var(--muted);margin:0}
 .about-education{margin-top:1px;border:1px solid var(--line);padding:25px}.about-education h3{font-size:20px;margin:12px 0 6px}.about-education>p:not(.tag){color:var(--muted);font-size:13px}.about-education>div{display:flex;gap:8px;flex-wrap:wrap;margin-top:18px}.about-education span{font:10px var(--mono);color:#c6ced9;border:1px solid #35404d;padding:9px}
-.resume-download{display:inline-flex;align-items:center;gap:24px;margin-top:22px;padding:12px 16px;background:#b9f94a;color:#102000;text-decoration:none;font:700 11px var(--mono);letter-spacing:.04em}.resume-download:hover{background:#d1ff75}.resume-download b{font-size:16px;line-height:1}
+.resume-download{display:inline-flex;align-items:center;gap:14px;margin-top:22px;padding:13px 18px;background:#b6f542;color:#050a05;text-decoration:none;font:700 12px var(--mono);letter-spacing:.04em}.resume-download:hover{background:#d1ff75;color:#050a05}.resume-download b{font-size:18px;line-height:1}
 .work{background:var(--surface);max-width:none;padding-left:max(5vw,32px);padding-right:max(5vw,32px)}
 .section-head{display:grid;grid-template-columns:25% 1fr 32%;gap:30px;align-items:start;margin-bottom:55px}
 .section-head h2{margin:0}
