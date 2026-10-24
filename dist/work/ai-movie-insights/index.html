@@ -25,6 +25,7 @@
 <em>Insights.</em>
 </h1>
 <p class="lede">A Next.js application that combines OMDb movie metadata with Gemini-powered audience-sentiment analysis.</p>
+<p class="project-summary">AI Movie Insights is a Next.js and TypeScript application that combines deterministic movie metadata with Gemini-powered analysis. Users search by IMDb ID; a route handler validates the input and retrieves movie details from OMDb, including the title, plot, rating, and core cast information. A separate analysis route sends review text to Gemini and returns a structured response with a summary, classification, confidence, themes, and sentiment distribution for the interface. The repository includes loading, error, hero, sentiment, and cast components, alongside Framer Motion for UI animation. It also documents a practical fallback: when Gemini is unavailable, the app uses available OMDb actor, director, and writer data instead.</p>
 <div class="chips">
 <span>Next.js</span>
 <span>TypeScript</span>

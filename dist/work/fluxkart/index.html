@@ -24,6 +24,7 @@
 <h1>Flux<em>Kart.</em>
 </h1>
 <p class="lede">An Express backend for reconciling fragmented customer identifiers into a deterministic contact graph.</p>
+<p class="project-summary">FluxKart Customer Identity Resolver is a TypeScript Node.js backend service for reconciling customer records that arrive with overlapping email addresses and phone numbers. Its focused POST /identify endpoint validates incoming data with Zod, then applies deterministic contact-linking rules through Express, Prisma, and PostgreSQL. The implementation keeps the oldest related record as the primary contact and represents newer linked records as secondary contacts. It also handles the harder case where a new request connects previously separate primary clusters. The repository separates routes, controllers, services, validation, utilities, and database access, making the business logic inspectable. Vitest tests use mocked Prisma interactions to exercise resolver scenarios and edge cases.</p>
 <div class="chips">
 <span>TypeScript</span>
 <span>Node.js</span>
