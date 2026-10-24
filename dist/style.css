@@ -15,7 +15,7 @@ nav a:hover,.text-link:hover{color:#fff}
 .hero,section{max-width:1280px;margin:auto;padding-left:max(5vw,32px);padding-right:max(5vw,32px)}
 .hero{padding-top:67px;padding-bottom:45px}
 .eyebrow,.tag{font:10px var(--mono);letter-spacing:.12em;color:var(--muted)}
-.section-label{font:700 clamp(18px,1.45vw,24px)/1.15 var(--mono);letter-spacing:.06em;color:#d6deea;text-transform:uppercase}
+.section-label{font:700 clamp(26px,2.2vw,36px)/1.15 var(--mono);letter-spacing:.06em;color:#d6deea;text-transform:uppercase}
 .eyebrow i{width:6px;height:6px;background:#79dfa0;border-radius:99px;display:inline-block;margin:0 9px}
 .hero-grid{display:grid;grid-template-columns:1.45fr .55fr;gap:70px;align-items:end;margin-top:72px}
 .kicker{font:12px var(--mono);color:var(--accent);letter-spacing:.08em}
@@ -40,7 +40,7 @@ ol span{color:var(--muted)}
 .numbers span{font-size:11px;color:var(--muted)}
 section{padding-top:118px;padding-bottom:118px}
 .profile{display:grid;grid-template-columns:25% 1fr;gap:46px}
-.profile>.section-label,.section-head>.section-label{justify-self:center;text-align:center}
+.profile>.section-label,.section-head>.section-label{justify-self:center;text-align:center}.profile>.section-label{margin-top:140px !important}
 .profile h2,.section-head h2,.production h2,.experience h2,.ai h2,.method h2,.beyond h2,.education h2,.contact h2{font-size:clamp(39px,5.1vw,72px);line-height:.99;letter-spacing:-.055em;margin-bottom:28px}
 .profile>div>p{color:var(--muted);max-width:650px;font-size:16px}
 .profile-cards{margin-top:51px;display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:var(--line)}
@@ -122,7 +122,7 @@ footer{display:flex;justify-content:space-between;padding:20px 5vw;font:10px var
 nav{display:none}
 .nav-cta{font-size:10px}
 .hero,section{padding-left:20px;padding-right:20px}
-.section-label{font-size:16px}
+.section-label{font-size:20px}
 .profile>.section-label,.section-head>.section-label{justify-self:start;text-align:left}
 .hero-grid,.profile,.production-grid,.experience,.method,.toolkit,.education,.section-head{grid-template-columns:1fr;gap:30px}
 .signal{border-left:0;border-top:1px solid var(--line);padding:16px 0 0}
